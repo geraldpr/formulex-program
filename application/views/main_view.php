@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-	
+<?php include('nav.php'); ?>
     <div id="content">
         
         <h1>Welcome to Formulex</h1>
