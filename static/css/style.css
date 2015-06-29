@@ -6,6 +6,8 @@
 	background: #3498db;
 }
 
+.navbar li a {color: #fff;}
+
 /* Sidebar */
 #sidebar {
 	width: 210px;
@@ -37,6 +39,11 @@
 	color: #fff;
 	text-decoration: none !important;
 	font-size: 1.3em;
+}
+
+.sidebar-nav li span {
+	float: right;
+	margin-right: 10%;
 }
 
 #content {
