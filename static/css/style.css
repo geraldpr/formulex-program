@@ -1,1 +1,52 @@
 /* CSS Styles */
+
+/* Navbar */
+
+.navbar {
+	background: #3498db;
+}
+
+/* Sidebar */
+#sidebar {
+	width: 210px;
+	height: 100%;
+	position: fixed;
+	background: #3498db;
+	display: none; 
+	margin-left: 0px;
+	text-indent: 20px;
+}
+
+.sidebar-nav {
+	margin-left: -40px;
+}
+
+.sidebar-nav li {
+	list-style: none !important;
+	text-decoration: none !important;
+	padding: 7% 0;
+	width: 100%;
+}
+
+.sidebar-nav li:hover {
+	background: #2ecc71;
+}
+
+.sidebar-nav li a,
+.sidebar-nav li a:hover {
+	color: #fff;
+	text-decoration: none !important;
+	font-size: 1.3em;
+}
+
+#content {
+	margin-left: 0px;
+	position: relative;
+}
+
+.menu-toggle {
+	cursor: pointer;
+	color: red;
+}
+
+.navbar {margin-bottom:0px !important;}
